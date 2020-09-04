@@ -1,29 +1,47 @@
-# shopping-cart
+# Vuejs Shop (Vuex, Axios & Vue Router)
 
-## Project setup
-```
-npm install
-```
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is not a production ready code but it is functional and you can see it in action on the url mentioned below.
+
+Demo URL: https://projects.rupakdhiman.com/vuejs-shop/
+
+**Dependencies**
+
+- Vuejs
+- Vuex
+- Vue Router
+- Bulma
+- Axios
+
+**Dev Dependencies**
+
+- Babel
+- Esline
+- Jest
+- Vue Cli
+- Node Sass
+
+## Description
+
+I have created this App just to showcase my knowledge on VueJS but feel free to fork or download the repo and modify the code to suit your needs.
+
+This app uses [https://fakestoreapi.com/](https://fakestoreapi.com/) to display Products. API has other routes too with fake data for users, carts, etc... but I am only using the products endpoint and rest of the functionality is handeled by the app itself.
+
+FakestoreAPI is a great source but the downtime or loading time is too high, we really have to wait few seconds for the API to connect, no matter how good your internet connection is, but it's FREE to use, so hat's off to the guys mainting the service.
+
+**Note:** We are only manging the state of the data via Vuex and not storing the data permanentaly anywhere, so it gets lost on every page referesh.
+
+## Installation
+
+1. Clone the repo on your system using command `git clone https://github.com/contriveitup/vue-shop.git`.
+2. Navigation to the cloned folder in your terminal. If you have used the above command as it is then you would run this command `cd vue-shop`.
+3. After navigating to the project folder run `npm install && npm run serve`. You can also use **Yarn** commands instead of **NPM** if you are more comfortable with that.
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Happy Coding!
