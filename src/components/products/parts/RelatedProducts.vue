@@ -46,4 +46,11 @@ export default {
 .related-products {
   margin-top: 3rem;
 }
+@media screen and (max-width: 767px) {
+  .related-products {
+    h3 {
+      padding: 0 30px;
+    }
+  }
+}
 </style>

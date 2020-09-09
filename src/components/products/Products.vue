@@ -1,5 +1,5 @@
 <template>
-  <div v-if="allProducts">
+  <div v-if="allProducts" class="products">
     <div class="columns is-multiline is-desktop is-widescreen is-fullhd">
       <div
         v-for="product in allProducts"

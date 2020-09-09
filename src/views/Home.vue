@@ -10,12 +10,19 @@ import Products from "./../components/products/Products";
 export default {
   name: "Home",
   components: {
-    Products,
-  },
+    Products
+  }
 };
 </script>
 <style lang="scss" scoped>
 .products {
   margin-top: 2rem;
+}
+@media screen and (max-width: 767px) {
+  .products {
+    h1 {
+      padding: 0 30px;
+    }
+  }
 }
 </style>

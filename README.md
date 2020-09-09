@@ -24,7 +24,19 @@ Demo URL: https://projects.rupakdhiman.com/vuejs-shop/
 
 ## Description
 
-I have created this App just to showcase my knowledge on VueJS but feel free to fork or download the repo and modify the code to suit your needs.
+This is a code extracted from one of the projects for a client and has been tweaked just to showcase my knowledge on VueJS but feel free to fork or download the repo and modify the code to suit your needs.
+
+#### What can you do in this app?
+
+You will be able to
+
+- Add/remove product from cart.
+- Apply coupons.
+- Browser Products.
+- View Product Info.
+- View Coupons.
+
+I may integrate the checkout code later, after reviewing what all I can add and showcase in the Free application.
 
 This app uses [https://fakestoreapi.com/](https://fakestoreapi.com/) to display Products. API has other routes too with fake data for users, carts, etc... but I am only using the products endpoint and rest of the functionality is handeled by the app itself.
 

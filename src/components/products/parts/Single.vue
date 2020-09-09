@@ -1,13 +1,13 @@
 <template>
   <div v-if="singleProduct" class="product single">
     <div class="box">
-      <article class="media">
-        <div class="media-left">
+      <article class="columns is-multiline">
+        <div class="column is-4">
           <figure class="image">
             <img v-if="singleProduct !== undefined" :src="singleProduct.image" alt="Image" />
           </figure>
         </div>
-        <div class="media-content">
+        <div class="column is-8">
           <div class="content">
             <h1>{{ singleProduct.title }}</h1>
             <p>
@@ -93,6 +93,23 @@ export default {
     }
     .actions {
       margin-top: 3rem;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .product {
+    &.single {
+      margin-top: 3rem;
+      .box {
+        padding: 1rem;
+      }
+      .image {
+        max-width: 100%;
+        margin-right: 0;
+      }
+      .actions {
+        margin-top: 3rem;
+      }
     }
   }
 }

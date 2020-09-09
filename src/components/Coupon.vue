@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-multiline">
     <div class="column is-offset-9 is-3">
-      <div class="field is-grouped">
+      <div class="field is-grouped coupon-form">
         <p class="control is-expanded">
           <input
             class="input coupon-input"
@@ -47,3 +47,10 @@ export default {
   }
 };
 </script>
+<style lang="scss" scoped>
+@media screen and (max-width: 767px) {
+  .coupon-form {
+    padding: 0 15px;
+  }
+}
+</style>

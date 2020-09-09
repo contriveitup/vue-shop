@@ -86,4 +86,9 @@ export default {
 .cart {
   margin-top: 3rem;
 }
+@media screen and (max-width: 767px) {
+  .cart-meta {
+    padding: 0 15px;
+  }
+}
 </style>
