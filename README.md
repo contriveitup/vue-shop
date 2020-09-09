@@ -24,7 +24,7 @@ Demo URL: https://projects.rupakdhiman.com/vuejs-shop/
 
 ## Description
 
-This is a code extracted from one of the projects for a client and has been tweaked just to showcase my knowledge on VueJS but feel free to fork or download the repo and modify the code to suit your needs.
+This is a code extracted from one of the projects I did for a client and has been tweaked just to showcase my knowledge on VueJS but feel free to fork or download the repo and modify the code to suit your needs.
 
 #### What can you do in this app?
 
